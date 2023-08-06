@@ -1,0 +1,35 @@
+py-mysql2pgsql Changelog
+========================
+
+
+Version 0.1.6
+-------------
+
+- Feature: use -t to convert date fields to UTC timezone.
+- Data types detection corrected
+- Missed changes from timezone option support
+- Support NULL as timestamp default
+- Corrected enum chomping on braces and commas
+- Decode mysql table names so they can be internalized now
+
+
+Version 0.1.5
+-------------
+
+Support for Python 2.6 removed.
+
+
+Version 0.1.2
+-------------
+
+Finally had a chance to test on Windows running Python 2.7
+
+- Fixed import issue with termcolor import on Windows installs
+- Updating documentation to help any potential windows users.
+
+
+Version 0.1.1
+-------------
+
+- Fixed improperly escaped backslashes `\` in `copy` data
+- Updated documentation

@@ -1,0 +1,6 @@
+mysql-python
+psycopg2
+pyyaml
+termcolor
+argparse
+pytz
